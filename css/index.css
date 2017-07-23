@@ -191,8 +191,7 @@ nav li .special{
 .swiper-inner .item{
 	width: 100%;
     height: 440px;
-    background: url(../img/index/new_banner_qiyue_pc.jpg) no-repeat;
-    background-size: 138% 100%;
+    background: url(../img/index/new_banner_qiyue_pc.jpg);
     background-position: center;
 }
 .swiper .swiper-indicators{
@@ -209,11 +208,38 @@ nav li .special{
 	display: inline-block;
 	float: inherit;
 	padding-left: 13px;
-	border: 1px solid #ccc;
+	border: 1px solid #666;
     border-radius: 50%;
     margin-left: 15px;
     width: 2px;
     height: 14px;
     cursor: pointer;
     background-color: transparent;
+}
+.swiper .swiper-indicators li:hover{
+	background: #ff6a00;
+}
+.swiper .btn-outer{
+	width: 714px;
+    margin: -241px auto;
+    overflow: hidden;
+    font-size: 36px;
+    padding: 0px;
+    text-align: center;
+}
+.swiper .btn{
+	width: 40px;
+	height: 40px;	
+	line-height: 40px;
+	cursor: pointer;
+	color: #fff;
+}
+.swiper .btn:hover{
+	background-color: rgba(0,0,0,.5);
+}
+.swiper .btn1{
+	float: left;
+}
+.swiper .btn2{
+	float: right;
 }
