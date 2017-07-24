@@ -139,7 +139,7 @@ nav .categorys .body{
     background: #fff;
 }
 nav .categorys .list{
-    padding: 7px 0 10px 17px;
+    padding: 14px 0 6.5px 17px;
 }
 nav .categorys .list:first-child{
 	padding-top: 12px;
@@ -164,6 +164,7 @@ nav .categorys .list:last-child li{
 	padding-right: 21px;
     font-size: 16px;
 }
+
 nav .nav{
 	padding: 11px;
 }
@@ -185,7 +186,7 @@ nav li .special{
 .swiper{
 	min-width: 1200px;
 	border: 1px solid red;
-	height: 430px;
+	height: 440px;
 	overflow: hidden;
 }
 .swiper-inner .item{
@@ -242,4 +243,50 @@ nav li .special{
 }
 .swiper .btn2{
 	float: right;
+}
+.swiper .focus-wrapper{
+    width: 1200px;
+    text-align: center;
+    margin: 7px auto;
+}
+.swiper .focus{
+	margin-left: 82%;
+}
+.swiper .focus-one:hover,.swiper .focus-two:hover,.swiper .focus-three:hover{
+	position: relative;
+	left:-6px;
+}
+.toper-server{
+	width: 1200px;
+    margin: 20px auto;
+}
+.toper-server a{
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+}
+.toper-server .server-icon{
+	font-size: 40px;
+    float: left;
+    line-height: 68px;
+    color:#ff6a00;
+}
+.toper-server .server-title{
+	display: inline-block;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    margin-left: 20px;
+    color: #4d4d4d;
+}
+.toper-server .server-content{
+    font-size: 12px;
+    white-space: nowrap;
+    padding-left: 60px;
+    color: #999;
+}
+.toper-server li:first-child{
+	margin-left: 0;
+}
+.toper-server li{
+	margin-left: 30px;
 }
