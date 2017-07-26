@@ -456,3 +456,175 @@ nav li .special{
 .f5 .floor-title-text{
 	background-color: #ffcd8d;
 }
+.news{
+	width:1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.news .news-one,.news .news-two,.news .news-three{
+	float: left;
+	height: 200px;
+}
+.news .news-one{
+	width: 243px;
+    background: #ccc;
+}
+.news .news-p{
+	height: 23px;
+    background: #898989;
+    color: #fff;
+    margin-bottom: 2px;
+    line-height: 23px;
+}
+.news .news-p span{
+	display: inline-block;
+    margin-left: 10px;
+}
+.news .news-one .news-add-icon{
+	float: right;
+    width: 18px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 50%;
+    height: 18px;
+    line-height: 18px;
+    display: inline-block;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.news .news-one ul{
+	padding: 24px;
+    font-size: 14px;
+}
+.news .news-one li{
+	margin-bottom: 20px;
+}
+.news .news-two{
+	width: 524px;
+    margin-left: 23px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.news .news-li{
+	border-bottom: 1px solid #bbb;
+	width: 100%;
+	overflow: hidden;
+	height: 95px;
+	
+}
+.news .news-li .icon-lingxian {
+	color: #ff6a00;
+}
+.news .news-time{
+	float: right;
+	display: inline-block;
+	margin-right: 14px;
+    font-size: 13px;
+    line-height: 22px;
+}
+.news li .li-first-row{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+.news .news-li p{
+	font-size: 12px;
+    margin-left: 12px;
+    color: #000;
+}
+.news .news-three{
+	width: 385px;
+    margin-left: 23px;
+    overflow: hidden;
+    background: #ccc;
+}
+.news .news-three ol{
+	float: left;
+	width: 150px;
+    padding: 21px;
+}
+.news .news-three li{
+	padding-bottom: 20px;
+	font-size: 14px;
+	white-space: nowrap;
+}
+.app-wx-wrapper{
+	width: 1200px;
+	margin: 29px auto;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.app-wx-wrapper .wrapper-one,.app-wx-wrapper .wrapper-two,.app-wx-wrapper .wrapper-three{
+	width: 334px;
+	padding: 25px 0px 20px 20px;
+	float: left;
+	overflow: hidden;
+}
+.app-wx-wrapper .intro,.app-wx-wrapper .intro-img{
+	float: left;
+}
+.app-wx-wrapper .intro{
+	margin-left: 24px;
+}
+.app-wx-wrapper .intro h5{
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+.app-wx-wrapper .intro p{
+	margin-bottom: 6px;
+	    font-size: 12px
+}
+.app-wx-wrapper .intro .icon-pingguo{
+	font-size: 61px;
+	color: orange;
+}
+.app-wx-wrapper .intro .icon-iconfontandroid1{
+	font-size: 51px;
+	color: greenyellow;
+}
+.app-wx-wrapper .intro a:hover{
+	text-decoration: none;
+}
+.app-wx-wrapper .wrapper-two{
+	width: 440px;
+	margin-left: -44px;
+	margin-top: -11px;
+}
+.app-wx-wrapper .wrapper-three{
+	width: 375px;
+	margin-left: 24px;
+}
+.app-wx-wrapper .wrapper-three .intro{
+	width: 61%;
+}
+.app-wx-wrapper .wrapper-three  .icon-weixin{
+    line-height: 54px;
+    font-size: 48px;
+    color: green;
+}
+.footer-server{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: orangered;
+    padding: 23px 2px ;
+}
+.footer-server ul li a .iconfont{
+	font-size: 34px;
+	color: #fff;
+}
+.footer-server ul li a{
+	color: #fff;
+}
+.footer-server ul li a:hover{
+	text-decoration: none;
+	color: #fff!important;
+}
+.footer-server li:first-child{
+	padding-left: 8px;
+	border: 0;
+}
+.footer-server li{
+	padding-left: 13px;
+    border-left: 1px solid #999;
+    padding-right: 18px;
+}
