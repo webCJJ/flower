@@ -1,0 +1,164 @@
+nav{
+	border:1px solid red;
+	height: 45px;
+	min-width: 1200px;
+}
+nav .container{
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+nav .categorys,.nav{
+	float: left;
+    border: 1px solid orange;
+}
+nav .categorys{	
+	width: 243px; 
+}
+nav .categorys .head{
+   
+    height: 43px;
+    background-color: #ff6a00;
+    line-height: 43px;
+    font-size: 21px;
+    color: #fff;
+    margin-left: 0px;
+    text-indent: .8em;
+}
+
+nav .categorys .body{
+    display: none;
+	position: absolute;
+    width: 220px;
+    border: 1px solid #ff6a00;
+    background: #fff;
+}
+nav .categorys .list{
+    padding: 14px 0 6.5px 17px;
+}
+nav .categorys .list:first-child{
+	padding-top: 12px;
+}
+nav .categorys .list-title,nav .categorys .list:last-child li a{
+	color: #ff6a00;
+	font-weight: bold;
+}
+nav .categorys .list ul{
+	margin-left: -4px;
+}
+nav .categorys .list li{
+    padding: 7px 12px 0 5px;
+    font-size: 13px;
+}
+nav hr{
+	width: 93%;
+    margin-left: 6px;
+    margin-top: 7px;
+}
+nav .categorys .list:last-child li{
+	padding-right: 21px;
+    font-size: 16px;
+}
+
+nav .nav{
+	padding: 11px;
+}
+nav .nav ul{
+	margin-left: -44px;
+}
+nav .nav li{
+	padding-left: 45px;
+}
+nav .nav li a{
+	font-weight: bold;
+}
+nav .nav li a:hover{
+	text-decoration: none;
+}
+nav li .special{
+	color:#ff6a00;
+}
+.content{
+width: 1200px;
+margin: 12px auto;
+overflow: hidden;
+}
+.content .left-list{
+  float: left;
+  width: 220px;
+  border: 1px solid #000;
+}
+.swiper{
+    float: right;
+    width: 958px;
+    border: 1px solid red;
+    height: 340px;
+    overflow: hidden;
+}
+.swiper-inner .item{
+	width: 100%;
+    height: 339px;
+    background: url('http://img02.hua.com/banner/liping02_20170517.jpg') no-repeat;
+    background-position: center;
+}
+.swiper .swiper-indicators{
+    position: absolute;
+    text-align: center;
+    display: block;
+    margin-top: -24px;
+    margin-left: -139px;       
+}
+.swiper .swiper-indicators ol{
+	min-width: 1200px;
+}
+.swiper .swiper-indicators li{
+	display: inline-block;
+	float: inherit;
+	padding-left: 13px;
+	border: 1px solid #666;
+    border-radius: 50%;
+    margin-left: 15px;
+    width: 2px;
+    height: 14px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.swiper .swiper-indicators li:hover{
+	background: #ff6a00;
+}
+.swiper .btn-outer{
+	width: 903px;
+    margin: -182px auto;
+    overflow: hidden;
+    font-size: 36px;
+    padding: 0px;
+    text-align: center;
+}
+.swiper .btn{
+	width: 40px;
+	height: 40px;	
+	line-height: 40px;
+	cursor: pointer;
+	color: #fff;
+}
+.swiper .btn:hover{
+	background-color: rgba(0,0,0,.5);
+}
+.swiper .btn1{
+	float: left;
+}
+.swiper .btn2{
+	float: right;
+}
+.swiper .focus-wrapper{
+    width: 1200px;
+    text-align: center;
+    margin: 7px auto;
+}
+.swiper .focus{
+	margin-left: 82%;
+}
+.swiper .focus-one:hover,.swiper .focus-two:hover,.swiper .focus-three:hover{
+	position: relative;
+	left:-6px;
+}
