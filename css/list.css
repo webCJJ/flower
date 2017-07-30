@@ -136,7 +136,7 @@ overflow: hidden;
 	text-align: center;
     background: #ffe8d9;
     font-size: 14px;
-    padding: 6px 0;
+    padding: 9px 0;
     color: #737373;
 }
 .content .navigation-two img{
@@ -189,7 +189,6 @@ overflow: hidden;
 .wrapper{
 	width: 962px;
     border: 1px solid red;
-    height: 340px;
     overflow: hidden;
 }
 .wrapper .filterbar{
@@ -224,6 +223,32 @@ overflow: hidden;
     height: 20px;
     line-height: 20px;
     background: #fff;
+}
+.wrapper .wrapper-list ul{
+	width: 100%;
+		font-size: 13px;
+}
+.wrapper .wrapper-list li{
+	padding: 10px;
+}
+.wrapper .wrapper-list li .list-p{
+
+	font-weight: bold;
+	color: orangered;
+}
+.wrapper .wrapper-list li .list-content{
+	font-size: 12px;
+
+}
+.wrapper .wrapper-list .last-p{
+	margin-top: 14px;
+}
+.wrapper .wrapper-list .btn{
+	width: 104px;
+    border: 1px solid red;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 0;
 }
 .swiper{
     width: 962px;
