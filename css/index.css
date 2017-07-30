@@ -518,5 +518,62 @@ nav li .special{
 .footer-server li{
 	padding-left: 13px;
     border-left: 1px solid #999;
-    padding-right: 18px;
+    padding-right: 14px;
 }
+.footer-nav{
+            width: 1200px;
+           margin: 23px auto;
+            text-align: center;
+        }
+        .footer-nav a{
+            padding-left: 15px;
+            padding-right: 33px;
+        }
+        .footer-help{
+            min-width: 1200px;
+            border: 1px solid red;
+            margin-top: 31px;
+            margin-bottom: 20px;
+        }
+        .footer-help .container{
+            width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .footer-help .container .container-one,.footer-help .container .container-two,   .footer-help .container .container-three{
+            float: left;
+        }
+        .footer-help .container .container-one,.container-two,.container-three,.container-four{
+            width: 297px;
+            height: 150px;
+            border: 1px solid red;
+            overflow: hidden;
+        }
+        .footer-help .container  p{
+            font-size: 14px;
+            padding-left: 38px;
+            margin-top: 14px;
+        }
+         .footer-help .container .container-four ul{
+         	 width: 229px;
+         }   
+         .footer-help .container ul{
+         	margin-left: 22px;
+            margin-top: 13px;
+            width: 166px;
+            float: left;
+         }
+    
+        .footer-help .container li{
+            float: inherit;
+            font-size: 12px;
+            padding-bottom: 4px;
+            padding-left: 17px;
+        }
+        footer{
+            min-width: 1200px;
+        }
+        .auth{
+            width: 1200px;
+            margin: 0 auto;text-align: center;
+        }

@@ -15,7 +15,6 @@ li{float: left;list-style: none;}
 header{
 	width: 1200px;
 	margin: 0 auto;
-	border: 1px solid red;
 	height: 113px;
 }
 header .logo,.search,.service{

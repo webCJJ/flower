@@ -85,9 +85,9 @@ nav .nav li a:hover{
 	clear: both;
 }
 .container .detail>p{
-	font-size: 15px;
-	padding-top: 6px;
-    padding-bottom: 6px;
+	font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .container .detail .detail-content{
 	overflow: hidden;
@@ -226,8 +226,7 @@ dl:last-child{margin-bottom: 13px;}
 }
 .content{
 	width: 1200px;
-	border: 1px solid red;
-	margin: 0 auto;
+	margin: 40px auto;
 }
 .content .left-list{
   float: left;
@@ -275,15 +274,16 @@ dl:last-child{margin-bottom: 13px;}
 }
 .right-list .wrapper{
 	width: 962px;
-    border: 1px solid red;
+    border: 1px solid #ccc;
     overflow: hidden;
+    position: relative;
+    left: 25px;
 }
 .wrapper ul{
 	border-bottom: 1px solid #000;
 }
 .wrapper li{
 	padding: 2px 21px;
-    height: 30px;
     line-height: 30px;
     font-size: 17px;
     border: 1px solid #ccc;
@@ -291,7 +291,170 @@ dl:last-child{margin-bottom: 13px;}
 .wrapper  .active-item{
 	border: 0;
 	border-top: 1px solid #000;	
+	border-right: 1px solid #ccc;
 }
 .wrapper .one-content{
 	padding: 10px 93px;
+}   
+.wrapper .two-content p:first-child,.wrapper .two-content p:last-child{
+	text-align: left;
+	font-size: 14px;
+	margin: 11px 0;
+} 
+
+.wrapper .two-content .first-p,.wrapper .two-content .last-p{text-align: center!important;}
+.wrapper .comment-item{
+	overflow: hidden;
+	padding: 10px;
+    padding-bottom: 11px;
+    border-bottom: 1px dashed #ccc;
+}
+.wrapper .two-content .first-comment ,.second-comment{
+	float: left;
+}
+.wrapper .two-content .first-comment{
+	width: 209px;
+	font-size: 13px;
+}
+.wrapper .comment-item .first-comment a{
+    display: block;
+    width: 68px;
+}
+.wrapper .comment-item .first-comment a img{
+	width: 100%;
+	height: 100%;
+}
+.wrapper .two-content .second-comment{
+	height: 110px;
+	overflow: hidden;
+	font-size: 13px;
+}
+.wrapper .two-content .second-comment p:first-child{
+	float: left;
+}
+.wrapper .two-content .second-comment .inline-p{
+	display: inline-block;
+	margin-top: 2px;
+	margin-bottom: 14px;
+}
+.time-span{
+	    display: inline-block;
+    margin-left: 306px;
+}
+.wrapper .comment-item hr{
+    width: 100%;
+    margin-bottom: 13px;
+}
+.wrapper .three-content {
+    padding: 20px;
+}
+.wrapper .three-content>p:first-child{
+	font-size: 13px;
+    line-height: 1.8;
+    padding: 15px;
+    background-color: #efeff4;
+}
+.wrapper .three-content ul{
+	border: 0;
+}
+.wrapper .three-content li{
+	font-size: 13px;
+	width: 140px;
+    border: 0;
+    margin-top: 12px;
 }    
+.wrapper .three-content li>p{
+	white-space: nowrap;
+}
+.wrapper .three-content>p:last-child,.wrapper-four>.last-p{
+	background: #efeff4;
+	font-size: 13px;
+    line-height: 1.8;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 30px;   
+}
+.wrapper .dashed-i{
+	display: inline-block;
+	width: 96%;
+	border: 1px dashed #ccc;
+	margin: 0 20px 30px 0px;
+	text-align: center;
+}
+.wrapper .four-content{
+	    padding: 25px 23px;
+}
+.wrapper .four-content li{
+	overflow: hidden;
+}
+.wrapper .four-content li .ple-one,.wrapper .four-content li .ple-content{
+	float: left;
+}
+.wrapper .four-content ul{
+	border: 0;
+}
+.wrapper .four-content li {
+	line-height: 19px;
+	width: 45%;
+	border: 0;
+	margin-bottom: 6px;
+}
+.wrapper .four-content li .ple-one{
+    font-size: 13px;
+}
+.wrapper .four-content li img{
+	display: inline-block;
+	float: left;
+	width: 60px;
+    height: 60px;
+}
+.time-a{
+	display: inline-block;
+    margin-left: 162px;
+    color: #ddd;
+}
+.time-a:hover{
+	color: #ddd;
+	text-decoration: none;
+}
+.a-content{
+	display: block;
+    margin-top: 6px;
+    font-size: 12px;
+}
+.wrapper .five-content{
+	padding: 10px 93px;
+}
+.wrapper .five-content ul{
+	border: 0;
+}
+.wrapper .five-content li{
+	width: 92px;
+	font-size: 14px;
+	padding: 3px 18px;
+	text-align: center;
+	border: 0;
+	margin: 10px 0 12px 0;
+}
+.wrapper .five-content li:hover{
+	color: orangered;
+}
+.wrapper .five-content li .iconfont{
+	font-size: 30px;
+}
+.footer-nav{
+            width: 1200px;
+           margin: 34px auto;
+            text-align: center;
+        }
+        .footer-nav a{
+            padding-left: 17px;
+            padding-right: 16px;
+        }
+               footer{
+            min-width: 1200px;
+        }
+        .auth{
+            width: 1200px;
+            margin: 0 auto;text-align: center;
+        }
