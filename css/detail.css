@@ -73,6 +73,7 @@ nav .nav li a{
 }
 nav .nav li a:hover{
 	text-decoration: none;
+	color: #fff!important;
 }
 
 .container{

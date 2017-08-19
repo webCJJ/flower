@@ -1,16 +1,16 @@
+.icon-unie60d{
+	color: sandybrown;
+}
 nav{
-	border:1px solid red;
 	height: 45px;
 	min-width: 1200px;
 }
 nav .container{
 	width: 1200px;
 	margin: 0 auto;
-	border: 1px solid #000;
 }
 nav .categorys,.nav{
 	float: left;
-    border: 1px solid orange;
 }
 nav .categorys{	
 	width: 243px; 
@@ -435,7 +435,7 @@ nav li .special{
     padding: 21px;
 }
 .news .news-three li{
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 	font-size: 14px;
 	white-space: nowrap;
 }
@@ -497,11 +497,11 @@ nav li .special{
 	width: 1200px;
 	margin: 0 auto;
 	overflow: hidden;
-	background: orangered;
-    padding: 23px 2px ;
+	background: #f60;
+    padding: 20px 2px ;
 }
 .footer-server ul li a .iconfont{
-	font-size: 34px;
+	font-size: 26px;
 	color: #fff;
 }
 .footer-server ul li a{
@@ -516,9 +516,9 @@ nav li .special{
 	border: 0;
 }
 .footer-server li{
-	padding-left: 13px;
+	padding-left: 17px;
     border-left: 1px solid #999;
-    padding-right: 14px;
+    padding-right: 20px;
 }
 .footer-nav{
             width: 1200px;
@@ -531,9 +531,9 @@ nav li .special{
         }
         .footer-help{
             min-width: 1200px;
-            border: 1px solid red;
             margin-top: 31px;
             margin-bottom: 20px;
+            background: #f2f2f2;
         }
         .footer-help .container{
             width: 1200px;
@@ -546,7 +546,6 @@ nav li .special{
         .footer-help .container .container-one,.container-two,.container-three,.container-four{
             width: 297px;
             height: 150px;
-            border: 1px solid red;
             overflow: hidden;
         }
         .footer-help .container  p{
